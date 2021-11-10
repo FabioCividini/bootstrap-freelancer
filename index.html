@@ -16,7 +16,7 @@
                 <span class="navbar-text text-info fs-5">
                     <i class="bi bi-code-square"></i>&nbsp;Portfolio
                 </span>
-                <a class="navbar-brand text-info fs-5" href="#"><u>CONTACT ME</u></a>
+                <a class="navbar-brand text-info fs-5" href="#contatti"><u>CONTACT ME</u></a>
             </div>
         </nav>
         <!--intestazione-->
@@ -105,7 +105,7 @@
             </section>
             <!--sezione about-->
             <section id="about" class="bg-info">
-                <div class="container">
+                <div class="container pb-4">
                     <h3 class="text-center p-3">ABOUT</h3>
                     <div class="row justify-content-center">
                         <div class="col-4">
@@ -119,6 +119,37 @@
                         <button type="button" class="btn btn-outline-light"><i class="bi bi-download"></i>&nbsp;Download</button>
                     </div>
                 </div>
+            </section>
+            <!--sezione contatti-->
+            <section>
+                <h3 id="contatti" class="text-center p-3">CONTACT ME</h3>
+                <div class="container">
+                    <form action="#" class="row justify-content-center gy-2">
+                        <div class="col-5">
+                            <label for="first-name" class="form-label">First name</label>
+                            <input id="first-name" class="form-control" type="text" required placeholder="Enter your first name...">
+                        </div>
+                        <div class="col-5">
+                            <label for="last-name" class="form-label">Last name</label>
+                            <input id="last-name" class="form-control" type="text" required placeholder="Enter your last name...">
+                        </div>
+                        <div class="col-5">
+                            <label for="email" class="form-label">Email address</label>
+                            <input id="email" class="form-control" type="email" required placeholder="name@example.com">
+                        </div>
+                        <div class="col-5">
+                            <label for="phone-number" class="form-label">Phone number</label>
+                            <input id="phone-number" class="form-control" type="tel" required placeholder="(123) 456-7890" maxlength="10">
+                        </div>
+                        <div class="col-10">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="message" cols="30" rows="4" required placeholder="Enter your message here..."></textarea>
+                        </div>   
+                    </form>
+                    <div class=" d-flex justify-content-center p-1">
+                        <button type="button" class="btn btn-info mt-1 mb-5"><i class="bi bi-send"></i>&nbsp;Send</button>
+                    </div>
+                </div>    
             </section>
         </main>
         <footer>
